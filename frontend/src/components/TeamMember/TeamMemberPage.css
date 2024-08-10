@@ -1,0 +1,81 @@
+/* src/components/TeamMember/TeamMemberPage.css */
+
+.team-member-page {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Center the title and add some margin */
+  .team-member-page h1,
+  .team-member-page h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Style the form to make it look better and centered */
+  .team-member-page form {
+    margin-bottom: 30px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style form elements */
+  .team-member-page .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .team-member-page .form-control {
+    border-radius: 5px;
+  }
+  
+  .team-member-page .btn-primary {
+    display: block;
+    width: 100%;
+    background-color: #007bff;
+    border-color: #007bff;
+    border-radius: 5px;
+  }
+  
+  .team-member-page .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+  }
+  
+  /* Style the tables */
+  .team-member-page table {
+    margin-top: 20px;
+    background-color: #fff;
+    border-collapse: collapse;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .team-member-page table th,
+  .team-member-page table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .team-member-page table th {
+    background-color: #007bff; /* Dark blue background for headers */
+    color: #fff; /* White text color */
+    font-weight: bold;
+  }
+  
+  .team-member-page table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .team-member-page table tbody tr:hover {
+    background-color: #e0e0e0;
+  }
+  
+  /* Error message styling */
+  .team-member-page .alert {
+    margin-bottom: 20px;
+  }
+  

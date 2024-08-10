@@ -1,0 +1,125 @@
+/* src/components/ITHOD/ITHODPage.css */
+
+.ithod-page {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Main heading styling */
+  .ithod-page h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Button styling */
+  .add-task-button {
+    margin-bottom: 20px;
+  }
+  
+  /* Form section styling */
+  .form-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  .form-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .form-header h3 {
+    margin: 0;
+    color: #333;
+  }
+  
+  .close-button {
+    font-size: 24px;
+    cursor: pointer;
+    color: #333;
+  }
+  
+  .close-button:hover {
+    color: #007bff;
+  }
+  
+  /* Form input styling */
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .form-group input {
+    border-radius: 4px;
+    border: 1px solid #ddd;
+  }
+  
+  /* Error message styling */
+  .alert {
+    margin-bottom: 20px;
+  }
+  
+  /* Table styling */
+  table {
+    margin-top: 20px;
+    background-color: #fff;
+    border-collapse: collapse;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  table th,
+  table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  table th {
+    background-color: #007bff; /* Dark blue background for headers */
+    color: #fff; /* White text color */
+    font-weight: bold;
+  }
+  
+  table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  table tbody tr:hover {
+    background-color: #e0e0e0;
+  }
+  
+  /* Button styling in the table */
+  button {
+    margin: 0 5px;
+  }
+  
+  button.btn-warning {
+    background-color: #ffc107;
+    border-color: #ffc107;
+  }
+  
+  button.btn-warning:hover {
+    background-color: #e0a800;
+    border-color: #d39e00;
+  }
+  
+  button.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+  }
+  
+  button.btn-danger:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+  }
+  

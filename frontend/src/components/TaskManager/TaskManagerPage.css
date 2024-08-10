@@ -1,0 +1,66 @@
+/* src/components/TaskManager/TaskManagerPage.css */
+
+.task-manager-page {
+    padding: 20px;
+  }
+  
+  .add-task-button {
+    margin-bottom: 20px;
+  }
+  
+  .form-section {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  .form-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .form-header h3 {
+    margin: 0;
+  }
+  
+  .close-button {
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .table {
+    margin-top: 20px;
+  }
+  
+  .table th, .table td {
+    text-align: center;
+  }
+  
+  .table th {
+    background-color: #f8f9fa;
+  }
+  
+  .table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f2f2f2;
+  }
+  
+  .table-bordered {
+    border: 1px solid #dee2e6;
+  }
+  
+  .table-bordered th, .table-bordered td {
+    border: 1px solid #dee2e6;
+  }
+  
+  .table-actions .btn {
+    margin-right: 5px;
+  }
+  
+  .alert {
+    margin-top: 20px;
+  }
+  
